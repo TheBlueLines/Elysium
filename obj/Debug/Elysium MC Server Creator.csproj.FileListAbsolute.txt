@@ -1,0 +1,10 @@
+C:\Users\David\source\repos\Elysium MC Server Creator\bin\Debug\Elysium MC Server Creator.exe.config
+C:\Users\David\source\repos\Elysium MC Server Creator\bin\Debug\Elysium MC Server Creator.exe
+C:\Users\David\source\repos\Elysium MC Server Creator\bin\Debug\Elysium MC Server Creator.pdb
+C:\Users\David\source\repos\Elysium MC Server Creator\obj\Debug\Elysium MC Server Creator.csprojAssemblyReference.cache
+C:\Users\David\source\repos\Elysium MC Server Creator\obj\Debug\Elysium_MC_Server_Creator.Form1.resources
+C:\Users\David\source\repos\Elysium MC Server Creator\obj\Debug\Elysium_MC_Server_Creator.Properties.Resources.resources
+C:\Users\David\source\repos\Elysium MC Server Creator\obj\Debug\Elysium MC Server Creator.csproj.GenerateResource.cache
+C:\Users\David\source\repos\Elysium MC Server Creator\obj\Debug\Elysium MC Server Creator.csproj.CoreCompileInputs.cache
+C:\Users\David\source\repos\Elysium MC Server Creator\obj\Debug\Elysium MC Server Creator.exe
+C:\Users\David\source\repos\Elysium MC Server Creator\obj\Debug\Elysium MC Server Creator.pdb
