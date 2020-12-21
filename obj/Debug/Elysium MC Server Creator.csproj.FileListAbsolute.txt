@@ -8,3 +8,7 @@ C:\Users\David\source\repos\Elysium MC Server Creator\obj\Debug\Elysium MC Serve
 C:\Users\David\source\repos\Elysium MC Server Creator\obj\Debug\Elysium MC Server Creator.csproj.CoreCompileInputs.cache
 C:\Users\David\source\repos\Elysium MC Server Creator\obj\Debug\Elysium MC Server Creator.exe
 C:\Users\David\source\repos\Elysium MC Server Creator\obj\Debug\Elysium MC Server Creator.pdb
+C:\Users\David\source\repos\Elysium MC Server Creator\bin\Debug\Elysium MC Server Creator.exe.manifest
+C:\Users\David\source\repos\Elysium MC Server Creator\bin\Debug\Elysium MC Server Creator.application
+C:\Users\David\source\repos\Elysium MC Server Creator\obj\Debug\Elysium MC Server Creator.exe.manifest
+C:\Users\David\source\repos\Elysium MC Server Creator\obj\Debug\Elysium MC Server Creator.application
