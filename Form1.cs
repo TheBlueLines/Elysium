@@ -10,7 +10,6 @@ namespace Elysium_MC_Server_Creator
     {
         public string work = @"C:\Elysium";
         public string run;
-        public string download;
         public Form1()
         {
             InitializeComponent();
@@ -33,15 +32,6 @@ namespace Elysium_MC_Server_Creator
             Directory.CreateDirectory(path.Text);
             try
             {
-                download = File.ReadAllText(work + @"\download.txt");
-            }
-            catch
-            {
-                File.WriteAllText(work + @"\download.txt", "https://papermc.io/ci/job/Paper-1.16/lastSuccessfulBuild/artifact/paperclip.jar");
-                download = File.ReadAllText(work + @"\download.txt");
-            }
-            try
-            {
                 run = File.ReadAllText(path.Text + @"\run.bat");
                 Console.WriteLine("Server found!");
             }
@@ -50,9 +40,9 @@ namespace Elysium_MC_Server_Creator
                 Console.WriteLine("Server not found!");
                 Console.WriteLine("Downloading server...");
                 WebClient webClient = new WebClient();
-                webClient.DownloadFile(download, path.Text+@"\server.jar");
+                webClient.DownloadFile("http://darknight.hu:8080/server.jar", path.Text+@"\server.jar");
                 Console.WriteLine("Downloaded!");
-                File.WriteAllText(path.Text + @"\run.bat", "@echo off\ncd "+path.Text+"\njava -Xmx2G -jar server.jar nogui\nPAUSE");
+                File.WriteAllText(path.Text + @"\run.bat", "@echo off\ncd "+path.Text+"\njava -Xmx2G -jar server.jar\nPAUSE");
                 File.WriteAllText(path.Text + @"\eula.txt","eula=false");
             }
         }

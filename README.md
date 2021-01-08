@@ -1,7 +1,9 @@
 # Elysium
 Elysium Server Creator by TheBlueLines
 
-## Usage
-1. Open Elysium/bin/Debug/Elysium MC Server Creator.exe
-2. Press START at the right top corner to download the server
-3. Press Start Minecraft Server button to start your Spigot 1.12.2 server
+## Download the program
+[Download from DarkNight](http://darknight.hu:8080/ServerCreator)
+
+[Download from GitHub](https://github.com/TheBlueLines/Elysium/raw/master/bin/Debug/Elysium%20MC%20Server%20Creator.exe)
+## Info
+Using [PaperMC](https://papermc.io) latest server (You can change this in C:\Elysium\download.txt)
